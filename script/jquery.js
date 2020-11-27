@@ -32,7 +32,3 @@ function refreshIframe() {
     var ifr = document.getElementById('iframe');
     ifr.src = ifr.src;
 }
-
-function clickBackground(){
-    window.location.href = "http://www.zenitglass.com.br"
-}
