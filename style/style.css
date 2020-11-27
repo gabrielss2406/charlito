@@ -1,0 +1,65 @@
+body{
+	padding:0;
+        }
+        #chatbot{
+            position: fixed;
+            float:right;
+            bottom:0vh;
+            right: 0;
+            height: 50vh;
+            min-width: 300px;
+            width: 30vw;
+            bottom: -50vh;
+        }
+        iframe{
+            box-shadow: 0 20px 80px rgba(0,0,0,.6);
+            border-radius: 8px;
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+        #btn{
+            border: 0;
+            background-color: transparent;
+            width: 8%;
+            height: 10%;
+            float: right;
+            right: 0;
+            background-image: url("https://me.org.br/wp-content/uploads/2018/12/x-png-33.png");
+            background-size: cover;
+        }
+        #btn2{
+            border: 0;
+            background-color: transparent;
+            width: 8%;
+            height: 10%;
+            float: right;
+            right: 0;
+            background-image: url("https://simpleicon.com/wp-content/uploads/refresh.png");
+            background-size: cover;
+        }
+        .robot{
+            height: 50vh;
+            width: 50vh;
+            right: 0;
+            bottom: 0;
+            float: right;
+            position: fixed;
+        }
+        input:focus{
+            outline: thin dotted;
+            outline: 0px auto -webkit-focus-ring-color;
+            outline-offset: 0px;
+        }
+	#char {
+            height: 25vh;
+            width: 25vh;
+	}
+    #fundo{
+      max-width: 100%;
+    }
+    #balon{
+      height: 20vh;
+      width: 35vh;
+      margin-bottom: 20vh;
+    }

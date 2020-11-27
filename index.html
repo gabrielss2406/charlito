@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style/style.css" media="screen" />
+
+    <script src="./script/jquery.js"></script>
+</head>
+<body>
+    <img src="./images/zenit.png"id="fundo"onclick="clickBackground()"></img>
+
+    <div onclick="mini()"id="img">
+	<img src="./images/balao.png" id="balon"class="robot">
+	<img src="./images/charlito.png"id="char"class="robot">
+    </div>
+    
+    <div id="chatbot">
+        <input type="button" id="btn" onclick="mini()"></input>
+        <input type="button"onclick="refreshIframe();"id="btn2">
+        <iframe id="iframe"src='https://webchat.botframework.com/embed/charlito-bot-botz?s=zOBbBk3-cLA.FrygDHEOpGLljEabo4sYENqKr3zMORamFYchmashZKA'></iframe>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
